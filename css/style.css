@@ -38,6 +38,10 @@ ul li{
 	color: #fff !important;
 }
 
+.navbar-toggler{
+	background-color: white !important;
+}
+
  /* Banner section css starts here --*/
 
 .banner{
@@ -327,4 +331,566 @@ line-height:center;
 	font-weight: 400;
 	color: #b0b0b0;
 	margin: 32px 0px;
+}
+\
+/*-- Feature section starts here --*/ 
+.Feature{
+	width: 100%;
+    padding: 120px 0px;
+      	
+}
+
+.Feature h1{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #212121;
+	padding: 20px 0;
+
+}
+.ftr_dsc{
+	text-align: center;
+	padding: 20px 0;
+}
+
+.ftr_line{
+	width: 80px;
+	height: 3px;
+	background-color: #ff6600;
+	margin: auto;
+
+}
+.Feature p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	color: #b0b0b0;
+	padding: 25px 0;
+	margin-bottom: 20px;
+
+}
+
+.left_feature{
+
+}
+.left_feture1{
+	margin: auto;
+}
+
+.left_feature .icon3{
+	text-align: center;
+	padding-bottom: 10px;
+
+}
+
+.left_feature .icon3 i{
+	color: #ff6600;
+	width: 5px;
+	height: 5px;
+	line-height: 5px;
+	border: 1px solid #ff6600; 
+	border-radius: 80%;
+	padding: 22px 26px 22px 20px;
+	/*text-align: center;
+	/*margin: auto;*/
+}
+
+.left_feature .icon3_1 i{
+	color: #ff6600;
+	width: 5px;
+	height: 5px;
+	line-height: 5px;
+	border: 1px solid #ff6600; 
+	border-radius: 80%;
+	padding: 17px 27px 23px 15px;
+}
+
+.left_feature .icon3_2 i{
+	color: #ff6600;
+	width: 5px;
+	height: 5px;
+	line-height: 5px;
+	border: 1px solid #ff6600; 
+	border-radius: 80%;
+	padding: 22px 23px 22px 20px;
+}
+
+.left_feature h3{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	color: #484848;
+	text-align: center;
+
+}
+
+.left_feature p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	color: #b0b0b0;
+	padding: 25px 0;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+/*-- Feature section ends here --*/ 
+
+/*-- pricing section starts here --*/ 
+.pricing_listing{
+	margin-top: 60px;
+}
+.Pricing{
+	width: 100%;
+    padding: 40px 0px;
+}
+.Pricing .row{
+	align-items: flex-end;
+}
+.Pricing h1{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #212121;
+	padding: 20px 0;
+	text-align: center;
+}
+
+.Pricing .pricing_line{
+	width: 80px;
+	height: 3px;
+	background-color: #ff6600;
+	margin: auto;
+}
+
+.Pricing p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	color: #b0b0b0;
+	padding: 25px 0;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.ctgr_bg{
+	background-color: #F5F5F5;
+
+}
+
+.table1, .table2{
+	margin: 0 10px;
+}
+
+.table1 .category1, .table1 .price_body1, 
+.table2 .category1, .table2 .price_body1{
+	background-color: #333333;
+
+}
+.category1{
+	padding: 5px 0;
+	border-bottom: 1px solid #f5f5f5;
+}
+
+.table1 .category1{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	color: #ffffff;
+	margin-bottom: 0px;
+}
+
+.table2 .category1 p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	color: #ffffff;
+	margin-bottom: 0px;
+}
+
+
+.price_body1{
+	padding: 5px 0;
+	border-bottom: 4px solid #ff6600;
+}
+.m_d4 .mdl{
+	margin-top: -5px;
+
+}
+
+.mdl .price_body1 .lower_dsc{
+	background-color: #ff6600;
+
+}
+
+.mdl .price_body1 {
+	border: 0px;
+	padding: 0px;
+	margin-bottom: 0px;
+}
+.mdl .price_body1 .special h1{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	color: #ffffff;
+	/*border-bottom: 1px solid #f5f5f5; */
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+.table1 .category1 p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	color: #ffffff;
+	margin-bottom: 0px;
+}
+
+.table2 .price_body1 .special{
+	padding: 10px 0px;
+}
+.mdl .price_body1 .special h1 span{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	color: #ffffff;
+	font-size: 80px;
+	
+	}
+
+.mdl .price_body1 .special p{
+	padding:20px 0px;
+  
+}
+.mdl .price_body1 .lower_dsc p{
+	color: #ffffff;
+	padding: 20px 0px;
+	margin-bottom: 4px;
+}
+
+.price_body1 h1{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	color: #ffffff;
+	margin-bottom: 0px;
+}
+
+.table1 .price_body1 h1 span{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	color: #ffffff;
+	font-size: 80px;
+}
+
+.table1 .price_body1 p{
+	font-family: 'Open Sans', sans-serif;
+	font-style: italic;
+	font-weight: 600;
+	color: #999999;
+	margin-bottom: 0px;
+}
+
+.table2 .price_body1 p{
+	font-family: 'Open Sans', sans-serif;
+	font-style: italic;
+	font-weight: 600;
+	color: #999999;
+	/*margin-bottom: 0px;*/
+}
+.table1 .service_list1{
+	background-color: #ffff;
+}
+
+.m_d4 .table2 .service_list1{
+	background-color: #ffff;
+}
+
+
+
+.table1 .service_list1 ul{
+	padding: 0;
+	text-align: center;
+} 
+
+.table1 .service_list1 ul li{
+	padding: 10px 0;
+	border-bottom: 1px solid #f5f5f5;
+} 
+
+.table1 .service_list1 ul li a{
+	font-family: 'Open Sans', sans-serif;
+	color: #999999;
+	text-transform: uppercase;
+} 
+
+.table2 .service_list1 ul{
+	padding: 0;
+	text-align: center;
+} 
+
+.table2 .service_list1 ul li{
+	padding: 10px 0;
+	border-bottom: 1px solid #f5f5f5;
+} 
+
+.table2 .service_list1 ul li a{
+	font-family: 'Open Sans', sans-serif;
+	color: #999999;
+	text-transform: uppercase;
+} 
+
+/*-- pricing section ends here --*/ 
+
+/* review section starts here */
+.review{
+	width: 100%;
+    padding: 100px 0px;
+      	
+ }
+
+ .upper_review h1{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #212121;
+	padding: 20px 0;
+	text-align: center;
+ }
+
+ .upper_review .review_line{
+ 	width: 80px;
+	height: 3px;
+	background-color: #ff6600;
+	margin: auto;
+ }
+  .upper_review p{
+  	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	color: #b0b0b0;
+	padding: 25px 0;
+	margin-bottom: 20px;
+	text-align: center;
+  }
+  .left_rvw .rvw1{
+  	background-color: #f5f5f5;
+	margin: 0px 20px;
+	padding: 20px 0px;
+	text-align: left;
+	border-radius: 3px;
+	position: relative;
+  }
+
+  .corner{
+  	width: 40px;
+  	height: 40px;
+  	background-color: #f5f5f5;
+  	position: absolute;
+  	bottom: -15px;
+  	left: 30px;
+  	transform: rotate(45deg);
+  }
+  .left_rvw .rvw1 p{
+  	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-style: italic;
+	color: #a2a3a6;
+	
+	/*margin-bottom: 20px;
+	text-align: center;*/
+}
+ .left_rvw{
+ 	padding: 20px;
+ } 	
+  
+  .rvw_des{
+  	display: flex;
+  	padding: 20px 0px;
+  }
+
+   .rvw_des h4{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	color: #333333;
+   }
+   .rvw_des p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	color: #a2a3a6;
+   }
+
+   .designation{
+   	padding-left: 18px;
+   }
+/* review section ends here */
+
+/*-- Design section css starts here --*/ 
+
+.Design{
+	background-image: url(../img/footer_bg.png);
+	width: 100%;
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 50vh;  
+	padding: 0;  	
+}
+
+.Design h1{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #212121;
+	padding: 20px 0;
+	text-align: center;
+	color: #ffffff;
+}
+
+.Design .dsgn_line{
+	width: 80px;
+	height: 3px;
+	background-color: #ffffff;
+	margin: auto;
+}
+
+.Design p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	color: #97928e;
+	margin: 40px;
+	padding: 10px;
+	text-align: center;
+}
+.btn2{
+
+	text-align: center;
+}
+
+.btn2 button{
+	padding: 12px 25px;
+	background: transparent;
+	border: 1px solid white;
+	color: white;
+	
+}
+/*-- Design section css ends here --*/ 
+
+/*-- Contact section starts here --*/ 
+.Contact{
+	width: 100%;
+    padding: 100px 0px;
+}
+.upper_contact h1{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	padding: 20px 0;
+	text-align: center;
+	color: #2f2f2f;
+}
+
+.upper_contact .contact_line{
+	width: 80px;
+	height: 3px;
+	background-color: #ff6600;
+	margin: auto;
+}
+
+.upper_contact p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	color: #97928e;
+	margin: 40px;
+	padding: 10px;
+	text-align: center;
+}
+
+.inpt_frm .form1 input{
+	padding: 10px  350px 10px 5px;
+	border:none;
+	border-bottom: 1px solid #c3c3c5;
+}
+
+.inpt_frm .form1 input::placeholder{
+	color: #c3c3c5;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	padding-top: 10px;
+}
+.txt{
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+.inpt_frm2{
+	margin-left: -84px;
+}
+
+.inpt_frm2 {
+	margin-left: -84px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+.inpt_frm2 textarea{
+	border:none;
+	border-bottom: 1px solid #c3c3c5;
+	margin-top: -24px;
+	padding-top: 15px;
+}
+
+
+.inpt_frm2 textarea::placeholder{
+
+	color: #c3c3c5;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+
+
+	
+} 
+
+.btn3{
+
+	text-align: center;
+	margin-top: 25px;
+    margin-bottom: 0px;
+
+}
+
+.btn3 button{
+	padding: 10px 22px;
+	background-color: #ff9b51;
+	color: white;
+	border:none;
+	
+}
+
+/*-- Contact sections ends here --*/ 
+
+
+/**<!-- footer sections starts here -->*/
+.footer{
+	background-color: #000000;
+	width: 100%;
+
+}
+
+.footer_icon{
+	text-align: center;
+
+}
+.footer ul{
+	text-align: center;
+	width: 30%;
+	height: 50px;
+    margin: auto;
+}
+
+.footer ul li{
+	/*width: 3%;*/
+    height: 50px;
+    line-height: 15px;
+    padding: 20px 12px;
+}
+
+.footer ul li i{
+	color: #cccccc;
+	/*font-size: 2rem;*/
+
+}
+
+.footer p{
+	color: #8e8e8e;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10px;
+	text-align: center;
+	font-weight: 300;
 }
