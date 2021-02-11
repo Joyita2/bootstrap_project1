@@ -37,7 +37,6 @@ ul li{
 .nav-link:hover{
 	color: #fff !important;
 }
-
 .navbar-toggler{
 	background-color: white !important;
 }
@@ -239,6 +238,7 @@ line-height:center;
 .service h4{
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
+
 }
 .service p{
 	font-family: 'Open Sans', sans-serif;
@@ -760,7 +760,7 @@ line-height:center;
 	background: transparent;
 	border: 1px solid white;
 	color: white;
-	
+}
 }
 /*-- Design section css ends here --*/ 
 
@@ -850,6 +850,7 @@ line-height:center;
 	background-color: #ff9b51;
 	color: white;
 	border:none;
+	margin-bottom: 20px;
 	
 }
 

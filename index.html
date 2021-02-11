@@ -14,7 +14,7 @@
    
     <!-- custom css file link -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
-
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
     <title>Bootstrap Project1</title>
   </head>
   <body>
@@ -32,7 +32,7 @@
                   </button>
             
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                   <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                    <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
@@ -51,7 +51,7 @@
                     <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#ContactUs">Contact</a>
                     </li>
-                </ul>
+                  </ul>
                 </div>
               </div>  
           </nav>
@@ -62,20 +62,19 @@
     <section class="banner">
       <div class="container">
         <div class="row">
-          <div class="col-md-7">
+            <div class="col-md-7">
             <!-- left side -->
-            <div class="banner_text">
+              <div class="banner_text">
               <img src="img/logo2.png" class="img-fluid">
               <h1>MODERN AXURE TEMPLATE
                   FOR BEAUTIFUL PROTOTYPES</h1>
               <div class="line"></div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Aenean
-            euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
-              <button>Download</button>
-              
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
+              <button type="submit">Download</button> 
+              </div>
             </div>
-          </div>
-            <div class="offset-1 col-md-4">
+            <div class="col-md-1"></div>
+            <div class="col-md-4">
               <!-- right side -->
               <div class="banner_form">
                 <form>
@@ -93,17 +92,11 @@
                     </div>
                  </div>
                </form>
-            </div>
-          
-        </div>
-        
-      </div>
-      
+              </div> 
+            </div>   
+        </div> 
+      </div> 
     </section>
-
-
-
-
 
     <!-- Banner sections ends here -->
 
@@ -145,11 +138,11 @@
               <li class="tab3"><a href="">TAB3</a></li>
              </ul>
            </div>
-           <div class="col-md-6">
+           <div class="col-md-6 serDiv">
              <h4>Tabs with soft transitioning effect.</h4>
              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes.<br>
              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
-              <button>Download</button>
+              <button type="submit">Download</button>
            </div>
            <div class="col-md-4">
              <img src="img/img1.png" class="img-fluid">
@@ -163,19 +156,19 @@
 
      <!-- Sub list section strats here -->
 
-<section>
-  <div class="sub_list">
+<section class="sub_list">
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <img src="img/img2.png" class="img-fluid">
+          <div class="sblist_img">
+            <img src="img/img2.png" class="img-fluid">
+          </div> 
         </div>
         <div class="col-md-6" sub_list_rgt>
           <h4>Sub list section</h4>
            <div class="str_line"></div>
            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
-  
-            <div class="title_upper">
+          <div class="title_upper">
               <div class="icon1">
                <a href=""><i class="fa fa-cloud-download" aria-hidden="true"></i></a> 
               </div>
@@ -196,7 +189,6 @@
         </div>
       </div>
     </div>
-  </div>
 </section>
     
  <!-- Sub list section ends here -->
@@ -214,10 +206,10 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean 
             euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes.<br/>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
-    </div>
-    <div class="col-md-6">
+      </div>
+      <div class="col-md-6">
         <img src="img/img3.png" class="img-fluid">
-    </div>
+      </div>
     </div>
   </div>
 </section>
@@ -253,7 +245,7 @@
        <a href=""><i class="fa fa-keyboard-o" aria-hidden="true"></i></a>
         </div>
         <h3>Well Crafted</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Aenean euismod bibendum laoreet.Proin gravida dolor sit amet lacus accumsan et viverra.</p>
+        <p class="mdltext">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Aenean euismod bibendum laoreet.Proin gravida dolor sit amet lacus accumsan et viverra.</p>
         
       </div>
 
@@ -486,7 +478,7 @@
     </div>
 
   <div class="row">
-    <div class="col-md-12">
+    <div class="col-md-12 msg_btn">
       <div class="btn3"><button type="submit">Send Message</button>
       </div>
     </div>
